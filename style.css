@@ -1,0 +1,41 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: all 0.3s linear;
+  }
+  a:hover {
+    transform: scale(1.3);
+  }
+  .first-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .second-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffc107;
+    position: sticky;
+    padding: 10px;
+    z-index: 1;
+  }
+  .order {
+    background-color: brown;
+    color: white;
+    padding: 2rem;
+  }
+  .order button {
+    padding: 10px;
+  }
+  .main img {
+    width: 100vw;
+  }
+  h2 {
+    font-weight: 700;
+  }
+  .review {
+    background-color: #f9cedd;
+  }
+  .btn {
+    background-color: white;
+  }
